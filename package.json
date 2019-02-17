@@ -1,0 +1,27 @@
+{
+  "name": "rx-training",
+  "version": "1.0.0",
+  "description": "arche galla home training ",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/01/01.ts "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArcheGalla/rx-training.git"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "arche galla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArcheGalla/rx-training/issues"
+  },
+  "homepage": "https://github.com/ArcheGalla/rx-training#readme",
+  "dependencies": {
+    "rxjs": "^6.4.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
