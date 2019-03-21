@@ -7,7 +7,7 @@ const tack$ = timer(0, 1000).pipe(take(5), map((i) => `tack$ ${i}`));
 let count = 0;
 
 const result$ = tick$.pipe(
-    mergeMap(() => tack$, 1)
+    mergeMap(() => tack$, 2)
 );
 
 result$.subscribe(
